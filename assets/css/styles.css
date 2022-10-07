@@ -10827,3 +10827,7 @@ footer {
 .carousel-control-next {
   background-image: linear-gradient(to right, #1f1c2c, #928dab);
 }
+
+a img {
+  width: 50px;
+}
