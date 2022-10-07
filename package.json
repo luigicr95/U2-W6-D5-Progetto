@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"sass:watch": "sass --no-source-map assets/scss/styles.scss assets/css/styles.css -w",
+  "scripts": {
+    "sass:watch": "sass --no-source-map assets/scss/styles.scss assets/css/styles.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/luigicr95/U2-W6-D5-Progetto#readme",
   "dependencies": {
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1"
   }
 }
