@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="dark-target navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img
@@ -49,9 +49,9 @@
               <a href="" class="nav-link"><i class="bi bi-instagram"></i></a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-light" type="submit">
-              Dark Mode
+          <form class="d-flex">
+            <input type="button" class="btn btn-outline-light" onclick="changeMode()">
+              Light Mode
             </button>
           </form>
         </div>
@@ -71,8 +71,8 @@
         </div>
       </div>
 
-      <div id="partnership" class="row text-white my-5">
-        <div class="col-12 p-5">
+      <div id="partnership" class="partners row text-white my-5">
+        <div class="dark-target col-12 p-5">
           Gracious support provided by our trustworthy and NOT questionable
           partners
         </div>
@@ -82,9 +82,9 @@
           <img
             src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/07/the-boys-season-3-claudia-doumit-social.jpg"
             class="figure-img img-fluid"
-            alt="Cinque Terre"
+            alt="Victoria Neuman"
           />
-          <figcaption class="figure-caption text-white p-4">
+          <figcaption class="dark-target figure-caption text-white p-4">
             Congresswoman Victoria Neuman: Just look at those eyes!
           </figcaption>
         </figure>
@@ -92,9 +92,9 @@
           <img
             src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Chace-Crawford-as-The-Deep-Kevin-in-The-Boys.jpg"
             class="figure-img img-fluid"
-            alt="Cinque Terre"
+            alt="Fresca"
           />
-          <figcaption class="figure-caption text-white p-4">
+          <figcaption class="dark-target figure-caption text-white p-4">
             Have a Fresca!
           </figcaption>
         </figure>
@@ -102,9 +102,9 @@
           <img
             src="https://pbs.twimg.com/media/ExowbzuWEAE0rN8.jpg"
             class="figure-img img-fluid"
-            alt="Cinque Terre"
+            alt="Laser Baby"
           />
-          <figcaption class="figure-caption text-white p-4">
+          <figcaption class="dark-target figure-caption text-white p-4">
             Laser Baby: he is a baby, he shoots lasers.
           </figcaption>
         </figure>
@@ -161,7 +161,7 @@
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          class="carousel-control-prev dark-target"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
@@ -170,7 +170,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          class="carousel-control-next dark-target"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
@@ -180,20 +180,22 @@
         </button>
       </div>
     </div>
-    <footer id="about-us" class="row text-white text-start px-4">
-      <div class="col-md-6 my-4">
+    
+    <footer id="about-us" class="dark-target row text-white text-start px-4">
+    <div class="col-md-6 my-4">
         <h3 class="col-md-6 my-4">ABOUT US</h3>
         <p>More Info</p>
         <p>More Posts</p>
-      </div>
-      <div class="col-md-6 my-4">
+    </div>
+    <div class="col-md-6 my-4">
         <h3 class="col-md-6 my-4">CONTACTS</h3>
         <p>Address</p>
         <p>Telephone</p>
-        <p>Email</p>
-      </div>
+         <p>Email</p>
+    </div>
     </footer>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

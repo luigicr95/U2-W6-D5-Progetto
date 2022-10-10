@@ -10772,6 +10772,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-image: url(https://www.cineon.it/wp-content/uploads/2020/08/the-boys-season-2-poster-butcher.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
 .navbar {
   background-image: linear-gradient(to right, #1f1c2c, #928dab);
 }
@@ -10785,15 +10793,7 @@ textarea.form-control-lg {
   background-color: w;
 }
 
-body {
-  background-image: url(https://www.cineon.it/wp-content/uploads/2020/08/the-boys-season-2-poster-butcher.jpg);
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-.row.text-white {
+.partners {
   background-image: linear-gradient(to right, #1f1c2c, #928dab);
 }
 
@@ -10830,4 +10830,9 @@ footer {
 
 a img {
   width: 50px;
+}
+
+.dark-theme {
+  background-image: linear-gradient(to right, #dbe6f6, #c5796d);
+  color: black;
 }
